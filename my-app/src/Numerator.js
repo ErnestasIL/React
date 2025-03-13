@@ -7,7 +7,9 @@ function Numerator() {
     <div>
       <h1>{numerator}</h1>
       <button onClick={() => setNumerator(numerator + 1)}>Increase</button>
-      <button onClick={() => setNumerator(numerator - 1)}>Decrease</button>
+      <button onClick={() => setNumerator(numerator > 0 ? numerator - 1 : 0)}>
+        Decrease
+      </button>
     </div>
   );
 }
