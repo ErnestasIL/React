@@ -1,6 +1,7 @@
 import React from "react";
 import Greetings from "./Greetings";
 import Numerator from "./Numerator";
+import Registracija from "./Registracija";
 
 function App() {
   return (
@@ -12,6 +13,9 @@ function App() {
       </div>
       <div>
         <Numerator />
+      </div>
+      <div>
+        <Registracija />
       </div>
     </div>
   );
